@@ -21,7 +21,7 @@ public class NetActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         webview = (WebView) findViewById(R.id.webview);
-        webview.loadUrl("http://www.linteng.wang");
+        webview.loadUrl("https://github.com/wanglinteng/nfc");
         webview.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
